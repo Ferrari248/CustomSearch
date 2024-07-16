@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>person.f248</groupId>
+    <artifactId>custom-search</artifactId>
+    <version>0.0.1</version>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>cus-lucene</module>
+    </modules>
+
+    <properties>
+        <java.version>17</java.version>
+        <!-- <maven.compiler.source>${java.version}</maven.compiler.source> -->
+        <!-- <maven.compiler.target>${java.version}</maven.compiler.target> -->
+        <!-- project.build.sourceEncoding -->
+        <source.encoding>UTF-8</source.encoding>
+
+        <es.version>7.10.2</es.version>
+        <lucene.version>8.7.0</lucene.version>
+        <log4j.version>2.17</log4j.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+        </dependency>
+    </dependencies>
+
+</project>
